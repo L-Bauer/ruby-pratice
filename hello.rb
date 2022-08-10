@@ -24,8 +24,18 @@ def even_odd(number)
     else
       "That is an odd number."
     end
-  end
+end
 
-  puts even_odd(20)
-  puts even_odd(21)
-  puts even_odd("Jimmy") #Needs the return in method to catch error
+puts even_odd(20)
+puts even_odd(21)
+puts even_odd("Jimmy") #Needs the return in method to catch error
+
+def return_squared(number)
+    number * number
+end
+
+x = return_squared(20) #=> 400
+y = 100
+sum = x + y #=> 500
+
+puts "The sum of #{x} and #{y} is #{sum}." #String interpolation
