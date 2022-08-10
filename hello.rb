@@ -39,3 +39,7 @@ y = 100
 sum = x + y #=> 500
 
 puts "The sum of #{x} and #{y} is #{sum}." #String interpolation
+
+whisper = "HELLO WORLD" #Bang methods, ! overwrites orginal variable
+puts whisper.downcase!
+puts whisper
