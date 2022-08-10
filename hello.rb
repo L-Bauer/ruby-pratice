@@ -6,8 +6,10 @@ end
 
 puts my_name #Call the method
 
-def greet(name)
+def greet(name = "Stranger Danger")
     "Hello, " + name + "!"
 end
 
 puts greet("Bobby B.")
+puts greet("Susie")
+puts greet
