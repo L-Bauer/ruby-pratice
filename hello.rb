@@ -43,3 +43,8 @@ puts "The sum of #{x} and #{y} is #{sum}." #String interpolation
 whisper = "HELLO WORLD" #Bang methods, ! overwrites orginal variable
 puts whisper.downcase!
 puts whisper
+
+puts "Using puts: "
+puts []
+p "Using p: "
+p []
